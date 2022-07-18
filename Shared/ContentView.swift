@@ -14,7 +14,14 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
             
-            Text("The Highlands")
+            Text("The Amazing Scottish Highlands")
+                .font(.largeTitle)
+                .bold()
+                .multilineTextAlignment(.center)
+            
+            Text("The United Kingdom")
+                .font(.title)
+                .foregroundColor(.secondary)
         }
     }
 }
