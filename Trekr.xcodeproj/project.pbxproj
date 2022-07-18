@@ -13,6 +13,10 @@
 		3A4D55E12885E95B00A47DAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D55CF2885E95900A47DAE /* ContentView.swift */; };
 		3A4D55E22885E95B00A47DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D55D02885E95A00A47DAE /* Assets.xcassets */; };
 		3A4D55E32885E95B00A47DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D55D02885E95A00A47DAE /* Assets.xcassets */; };
+		3A4D55EE2885ED8400A47DAE /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D55EC2885ED8400A47DAE /* tips.json */; };
+		3A4D55EF2885ED8400A47DAE /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D55EC2885ED8400A47DAE /* tips.json */; };
+		3A4D55F02885ED8400A47DAE /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D55ED2885ED8400A47DAE /* locations.json */; };
+		3A4D55F12885ED8400A47DAE /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D55ED2885ED8400A47DAE /* locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,8 @@
 		3A4D55D52885E95B00A47DAE /* Trekr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trekr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4D55DB2885E95B00A47DAE /* Trekr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trekr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4D55DD2885E95B00A47DAE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3A4D55EC2885ED8400A47DAE /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		3A4D55ED2885ED8400A47DAE /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 		3A4D55CD2885E95900A47DAE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				3A4D55ED2885ED8400A47DAE /* locations.json */,
+				3A4D55EC2885ED8400A47DAE /* tips.json */,
 				3A4D55CE2885E95900A47DAE /* TrekrApp.swift */,
 				3A4D55CF2885E95900A47DAE /* ContentView.swift */,
 				3A4D55D02885E95A00A47DAE /* Assets.xcassets */,
@@ -158,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A4D55E22885E95B00A47DAE /* Assets.xcassets in Resources */,
+				3A4D55F02885ED8400A47DAE /* locations.json in Resources */,
+				3A4D55EE2885ED8400A47DAE /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A4D55E32885E95B00A47DAE /* Assets.xcassets in Resources */,
+				3A4D55F12885ED8400A47DAE /* locations.json in Resources */,
+				3A4D55EF2885ED8400A47DAE /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
