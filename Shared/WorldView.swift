@@ -9,6 +9,7 @@ import MapKit
 import SwiftUI
 
 struct WorldView: View {
+    @EnvironmentObject var locations: Locations
     @State var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(
             latitude: 51.507222,
@@ -25,6 +26,8 @@ struct WorldView: View {
             .navigationTitle("Locations")
     }
 }
+
+// PREVIEW
 
 struct WorldView_Previews: PreviewProvider {
     static var previews: some View {
