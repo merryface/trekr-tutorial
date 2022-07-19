@@ -43,6 +43,7 @@
 		3A4D55F82886182D00A47DAE /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 		3A4D55FB2886933900A47DAE /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		3A4D55FE288693AB00A47DAE /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		3A4D56012886968200A47DAE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 		3A4D55C82885E95900A47DAE = {
 			isa = PBXGroup;
 			children = (
+				3A4D56012886968200A47DAE /* README.md */,
 				3A4D55CD2885E95900A47DAE /* Shared */,
 				3A4D55DC2885E95B00A47DAE /* macOS */,
 				3A4D55D62885E95B00A47DAE /* Products */,
